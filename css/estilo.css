@@ -1,0 +1,293 @@
+@charset "utf-8";
+
+body{
+    background: #F7FAFC;
+}
+
+body a, a:visited{
+    color: #2B6CB0;
+    ;
+    text-decoration-style: none;
+    text-decoration-line: none;
+}
+
+
+.container1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    width: 49.5%;
+    flex: 1 1;
+    height: 100vh;
+    float: left;
+}
+
+.desafio{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.desafio img{
+    flex: auto auto 200px;
+}
+
+.desafio2{
+    margin: 0 auto;
+    display: flex;
+}
+
+.desafio2 img + img{
+    margin-left: 28px;
+}
+
+.desafio2 img{
+    width: 115px;
+    height: 85px;
+    flex:auto auto 125px;
+}
+
+.container2{
+    width: 50%;
+    
+    height: 100vh;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.container3{
+    width: 70%;
+    margin-top: 35px;
+}
+
+
+
+.container3 h1{
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 33px;
+    width: 100%;
+/* identical to box height */
+
+
+color: #1A202C;
+}
+
+.container3 h2{
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1A202C;
+    width: 100%;
+}
+
+
+
+.formulario{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+
+}
+
+.formulario label{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1A202C;
+}
+
+
+.formulario input{
+    width: 100%;
+    margin-top: 12px;
+    margin-bottom: 10px;
+    border: 1px solid #E8E8E8;
+    box-sizing: border-box;
+    border-radius: 5px;
+    height: 55px;
+}
+
+#lembrar{
+    width: 3%;
+}
+
+#lembrar1{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+#esqueceu{
+    padding-left: 50%;
+}
+
+
+
+
+
+.botao{
+    width: 100%;
+    height: 50px;
+    background: #04C45C;
+    border-radius: 5px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.botao1{
+    width: 100%;
+    height: 50px;
+    background: #1A202C;
+    border-radius: 5px;
+    margin-top: 15px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao1 img{
+    margin-right: 10px;
+}
+
+.link2{
+    display: flex;
+    gap: 5px;
+    align-items: flex-end;
+    justify-content: center;
+    padding-top: 25%;
+}
+
+
+@media all and (max-width: 1150px){
+    #lembrar{
+        width:15px;
+        height: 15px;
+        min-width: 14.5;
+    }
+}
+
+@media all and (max-width: 1200px){
+    #esqueceu{
+        padding-left: 40%;
+    }
+}
+
+@media all and (max-width: 1030px){
+    #esqueceu{
+        padding-left: 35%;
+    }
+}
+
+
+@media all and (max-width: 1000px){
+    #lembrar{
+        width: 6%;
+    }
+    .container1{
+        display: none;
+        width: 0px;
+    }
+    .container2{
+        display: flex;
+        width: 100vw;
+        align-items: center;
+    }
+    .container3 {
+        width: 90%;
+    }
+
+    .formulario fieldset{
+        width: 100%;
+    }
+    .link2{
+        display: flex;
+        gap: 5px;
+        align-items: flex-end;
+        justify-content: center;
+        padding-top: 25%;
+    }
+    #esqueceu{
+        padding-left: 65%;
+    }
+    
+}
+
+
+
+@media all and (max-width: 830px){
+    #esqueceu{
+        padding-left: 60%;
+    }
+}
+
+@media all and (max-width: 700px){
+    #esqueceu{
+        padding-left: 50%;
+    }
+}
+
+@media all and (max-width: 530px){
+    #esqueceu{
+        padding-left: 45%;
+    }
+}
+@media all and (max-width: 480px){
+    #esqueceu{
+        padding-left: 40%;
+    }
+}
+
+@media all and (max-width: 410px){
+    #esqueceu{
+        padding-left: 30%;
+    }
+}
+@media all and (max-width: 360px){
+    #esqueceu{
+        padding-left: 20%;
+    }
+}
+@media all and (max-width: 300px){
+    #esqueceu{
+        padding-left: 10%;
+    }
+}
+@media all and (max-width: 270px){
+    #esqueceu{
+        padding-left: 7%;
+    }
+}
+@media all and (max-width: 252px){
+    #esqueceu{
+        padding-left: 4%;
+    }
+}
+@media all and (max-width: 245px){
+    #esqueceu{
+        padding-left: 2.5%;
+    }
+}
