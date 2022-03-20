@@ -7,7 +7,7 @@ body{
 body a, a:visited{
     color: #2B6CB0;
     ;
-    text-decoration-style: none;
+    text-decoration: none;
     text-decoration-line: none;
 }
 
@@ -32,7 +32,7 @@ body a, a:visited{
 }
 
 .desafio img{
-    flex: auto auto 200px;
+    flex: 0 1 200px;
 }
 
 .desafio2{
@@ -47,7 +47,7 @@ body a, a:visited{
 .desafio2 img{
     width: 115px;
     height: 85px;
-    flex:auto auto 125px;
+    flex:0 1 125px;
 }
 
 .container2{
@@ -186,7 +186,7 @@ color: #1A202C;
     #lembrar{
         width:15px;
         height: 15px;
-        min-width: 14.5;
+        
     }
 }
 
